@@ -1,0 +1,15 @@
+name: QM_trends_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.11  
+  - pandas>=2.3.3
+  - matplotlib>=3.10.7
+  - seaborn>=0.13.2
+  - bcftools>=1.6
+  - pip
+  - pip:
+    - -e .
+    
